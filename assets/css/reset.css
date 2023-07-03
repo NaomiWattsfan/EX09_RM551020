@@ -1,0 +1,57 @@
+/* Reset CSS */
+
+/* Box-sizing reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Margin and padding reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+.container,
+div,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* List style reset */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Typography reset */
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Link reset */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Form element reset */
+button,
+input,
+select,

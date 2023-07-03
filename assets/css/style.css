@@ -1,0 +1,194 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100vh;
+}
+.navbar-custom {
+    background-color: #ec9ddf;
+    height: 57px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.btn-outline-primary-header-button {
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-outline-primary-home{
+    border-color: white;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-outline-secundary-home{
+    border-color: #ec9ddf;
+    color: #ec9ddf;
+    font-weight: bold;
+}
+
+.btn-outline-primary-header-button:hover, .btn-outline-primary-home:hover{
+    border-color: white;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.click-button:active{
+    color: white;
+}
+
+
+.btn-outline-secundary-header-button:hover, .btn-outline-secundary-home:hover{
+    border-color: white;
+    background-color: #ec9ddf;
+    color: white;
+    font-weight: bold;
+}
+
+
+.home-card-title {
+    color: white;
+    font-weight: bold;
+}
+
+.home-card-description{
+    color: white;
+    font-weight: bold;
+}
+
+.home-card-buttons{
+    margin-top: 20px;
+}
+
+.home-container {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.281),rgba(0,0,0,0.308)),url(../images/pexels-andrea-piacquadio-826349.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    border-color: #ec9ddf;
+}
+
+.profile-container{
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-description {
+    font-weight: bold;
+}
+
+.project-container {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.281),rgba(0,0,0,0.308)),url(../images/pexels-andrea-piacquadio-994197.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-apresentation {
+    font-weight: bold;
+    color: white;
+    width: 540px;
+}
+
+.login-container{
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card-login-container{
+    width: 30rem;
+    height: 25rem;
+
+}
+
+.card-body-login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-body-login-container div{
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.login-buttons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-container h1, .login-container h2{
+    font-weight: bold;
+    padding: 20px;
+}
+
+.custom-input:focus {
+    background-color: #f8f9fa; /* cor de destaque personalizada */
+    border-color: #ec9ddf; /* cor da borda de destaque personalizada */
+    color: #495057; /* cor do texto de destaque personalizada */
+    box-shadow: 0 0 0 0.25rem rgba(236, 157, 223	, 0.25); /* sombra de destaque personalizada */
+  }
+
+
+
+
+
+
+
+/* Estilos para telas médias */
+@media (max-width: 768px) {
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 576px) {
+}
+
+@media (max-width: 571px){
+    .card-login-container{
+        width: 90%;
+    }
+
+}
